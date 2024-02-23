@@ -1,0 +1,22 @@
+// Specific CSS for your home-page
+.header-container{
+  background-image: url("header_background.jpg");
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  color: white;
+  padding: 5px;
+}
+
+.btn-dark:hover{
+padding: 20px;
+transition: 0.7s;
+}
+
+.search-bar{
+  width: 450px;
+}
+
+.Movie-Center{
+  background-color: black;
+}

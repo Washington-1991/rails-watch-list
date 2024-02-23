@@ -1,0 +1,13 @@
+<div class="container">
+  <h1><%= @list.name %></h1>
+
+  <%= link_to "back to all lists", lists_path, class: "btn btn-primary" %>
+  <%= link_to "add a movie to the list", new_list_bookmark_path(@list), class: "btn btn-success"%>
+  <div class="cards">
+    <% @list.bookmarks.each do |bookmark| %>
+      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%=bookmark.movie.poster_url%>)">
+        <%= bookmark.movie.title %>
+      </div>
+    <% end %>
+  </div>
+</div>
