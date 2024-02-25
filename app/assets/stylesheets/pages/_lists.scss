@@ -10,8 +10,6 @@
 
 .btn-dark:hover{
 padding-right: 20px;
-padding-left: 20px;
-border-radius: 5%;
 transition: 0.7s;
 }
 
@@ -21,12 +19,4 @@ transition: 0.7s;
 
 .Movie-Center{
   background-color: black;
-}
-
-.buttons-containers{
-  background-color: black;
-}
-
-.card-movie-container{
-  background-image: url(movie.poster_url);
 }
